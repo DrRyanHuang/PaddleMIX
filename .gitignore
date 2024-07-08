@@ -77,3 +77,12 @@ kernel_meta/
 
 # VSCODE
 .vscode/
+*.pit.npy
+*.wav
+*.pth
+*.pdparam
+*.pt
+*.whl
+*.vec.npy
+*.spk.npy
+*.ppg.npy

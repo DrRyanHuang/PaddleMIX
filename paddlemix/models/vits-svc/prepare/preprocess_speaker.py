@@ -25,7 +25,7 @@ def get_spk_wavs(dataset_path, output_path):
                 if file.endswith(".wav"):
                     wav_files.append(f"./{dataset_path}/{spks}/{file}")
         elif spks.endswith(".wav"):
-            wav_files.append(f"./{dataset_path}/{spks}")
+            wav_files.append(f"./{dataset_path}/{spks}") 
     return wav_files
 
 

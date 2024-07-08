@@ -14,7 +14,7 @@
 
 import paddle
 import numpy as np
-
+import sys; sys.path.append("/home/zkyd/Desktop/PaddleMIX/ppdiffusers")
 from ppdiffusers import AutoencoderKL
 from ..hifigan.model import get_vocoder
 
